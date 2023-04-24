@@ -1,0 +1,220 @@
+
+body{
+margin:2px;
+padding:2px;
+font-family: 'Whois'; 
+
+}
+
+#menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    
+}
+
+#menu li {
+  margin: 0 5px;
+  flex-grow: 1;
+  text-align: center;
+    
+}
+
+#menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+  background-color: white;
+  transition-duration: 0.5s;
+    box-shadow: var(--box-shadow);
+    
+}
+
+#menu a.home {
+    
+     background-image: url('img/scar-long_animated.svg');
+   background-size: 100%;
+  background-position: center center;
+
+    
+}
+
+#menu a:hover {
+  color: white;
+    border-radius: 5px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
+
+
+
+
+
+#works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1px;
+    justify-content: center;
+    margin: 1px;
+    
+}
+
+.work {
+    display: flex;
+    border: 0px solid black;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    transition-duration: 1s;
+    margin: 10px;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.work:hover {
+  color: white;
+  background-color: black;
+  
+  transition-duration: 1s;
+}
+
+.work:hover .wdesc {
+  color: white;
+  background-color: black;
+  transition-duration: 1s;
+}
+
+
+.work:hover a {
+  color: white;
+  background-color: black;
+  transition-duration: 1s;
+}
+
+.wimg {
+    height: auto;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+#works .work .wimg img {
+       max-width: 100%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+#works .work:hover .wimg img {
+    filter: blur(10px);
+    
+}
+
+.wdesc {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 1px 1px 1px;
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+    text-align-last: justify;
+    width: 90%;
+}
+
+.desc {
+    display: none
+}
+
+.cat , .cat a {
+    color: black;
+    background-color: white;
+    box-shadow: none;
+}
+
+.date {
+    display: none;
+}
+
+h2 {
+    margin: 1px;
+}
+
+h1 {
+    margin: 12px;
+}
+
+ul {
+    
+    text-decoration: none;
+}
+
+
+
+footer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-info {
+    display: none;
+    flex-wrap: nowrap;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    padding: 10px 10px;
+    width: 100%;
+    margin: 10px 10px;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.main-content-info .box {
+    flex-basis: 50%;
+    padding: 10px 49px;
+}
+
+.scar {
+  display: inline-block;
+}
+
+.scar img {
+    
+  transform: rotate(90deg);
+  translate: 495px -394px;
+    width: 100%; 
+}
+
+
+
+@font-face {
+font-family: "Whois";
+src:url("../static/font/SpaceGrotesk-Regular.otf") ;
+}

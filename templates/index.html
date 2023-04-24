@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mon site</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    
+    
+     <script src="{{ url_for('static', filename='js/vivus.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    
+    
+</head>
+<body>
+    
+    {% include 'menu.html' %}
+        
+    <h1>Nathan Prost</h1>
+    <div id="works"> 
+        {% for a in articles %}
+        <div class="work">
+            <a href="/{{a.path}}">
+                <div class="wimg">
+                    {% if a.cover %}
+                    <img src="/static/img/{{a.cover}}"/>
+                    {% else %}
+                    <img src="/static/img/def.jpg"/>
+                    {% endif %}
+                </div>
+                <div class="wdesc">
+                    <h2>{{a.title}}</h2>
+                    <span class="desc">{{a.desc}}</span>
+                    <blockquote></blockquote>
+                    <span class="cat"><a href="/cat/{{a.cat}}">{{a.cat}}</a></span>
+                    <blockquote></blockquote>
+                    
+                      <span class="author"><a href="/author/{{a.author}}">{{a.author}}</a></span>
+                    
+                    <span class="tags"><a href="/tags/{{a.tags}}">{{a.tags}}</a></span>
+        
+                    
+                    <span class="date">{{a.published}}</span>
+                    <span class=""></span>
+                    
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    
+ 
+    
+    </body>
+    
+   
+</html>

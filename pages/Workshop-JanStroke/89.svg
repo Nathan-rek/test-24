@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Created by MetaPost 2.01 on 2023.03.16:1550 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="478.205566" height="1115.812988" viewBox="0 0 478.205566 1115.812988">
+<!-- Original BoundingBox: 0.000000 -398.504639 478.205566 717.308350 -->
+  <path d="M0.000000 1115.504639L478.205566 1115.504639L478.205566 -0.308350L0.000000 -0.308350Z" style="stroke:rgb(100.000000%,0.000000%,0.000000%); stroke-width: 0.000000;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0.000000,0.000000)">
+    <path d="M-51.912229 80.090762L-126.585363 464.727762L258.051637 390.054628" style="stroke:rgb(0.000000%,100.000000%,0.000000%); stroke-width: 27.895242;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  </g>
+  <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0.000000,0.000000)">
+    <path d="M-126.585363 464.727762L-328.061898 666.204296" style="stroke:rgb(0.000000%,100.000000%,0.000000%); stroke-width: 27.895242;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  </g>
+  <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0.000000,0.000000)">
+    <path d="M-51.912229 80.090762L-9.644429 122.358562" style="stroke:rgb(0.000000%,100.000000%,0.000000%); stroke-width: 27.895242;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  </g>
+  <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0.000000,0.000000)">
+    <path d="M258.051637 390.054628L201.694570 333.697561" style="stroke:rgb(0.000000%,100.000000%,0.000000%); stroke-width: 27.895242;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  </g>
+  <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0.000000,0.000000)">
+    <path d="M-356.240431 638.025763L-299.883364 694.382830" style="stroke:rgb(0.000000%,100.000000%,0.000000%); stroke-width: 27.895242;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  </g>
+</svg>
