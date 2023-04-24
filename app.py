@@ -106,7 +106,7 @@ def serve_pages(path):
 @app.errorhandler(404)
 def page_not_found(e):
         # note that we set the 404 status explicitly
-            return "NOPE NOTHING HERE plz leave now 🛸"
+            return "NOPE NOTHING HERE plz leave now - aie 🛸"
 
 if __name__ == "__main__":
         app.run(host='0.0.0.0')
