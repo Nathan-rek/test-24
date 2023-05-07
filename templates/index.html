@@ -21,7 +21,8 @@
     <div id="works"> 
         {% for a in articles %}
         <div class="work">
-            <a href="/{{a.path}}">
+    
+                 <a href="{{ url_for('index', _external=False) }}{{ a.path }}">
                 <div class="wimg">
                     {% if a.cover %}
                     <img src="/static/img/{{a.cover}}"/>
